@@ -1,11 +1,11 @@
 /* html */
-body:has(ul > a:focus) #start--s{
-    display: none;
-}
-
 section {
     display: none;
     /* pointer-events: none; */
+}
+
+#start--s{
+    display: block;
 }
 
 /* html */
@@ -15,6 +15,9 @@ body:has(#html--v:checked) #html--s{
 body:has(#html--v:checked) #html--t{
     background-color:#242d44;
 }
+body:has(#html--v:checked) #start--s{
+    display: none;
+}
 
 /* structure */
 body:has(#structure--v:checked) #structure--s{
@@ -22,6 +25,9 @@ body:has(#structure--v:checked) #structure--s{
 }
 body:has(#structure--v:checked) #structure--t{
     background-color:#242d44;
+}
+body:has(#structure--v:checked) #start--s{
+    display: none;
 }
 
 /* Tags intro */
@@ -31,6 +37,9 @@ body:has(#tags-intro--v:checked) #tags-intro--s{
 body:has(#tags-intro--v:checked) #tags-intro--t{
     background-color:#242d44;
 }
+body:has(#tags-intro--v:checked) #start--s{
+    display: none;
+}
 
 /* attributes intro */
 body:has(#attributes-intro--v:checked) #attributes-intro--s{
@@ -38,6 +47,9 @@ body:has(#attributes-intro--v:checked) #attributes-intro--s{
 }
 body:has(#attributes-intro--v:checked) #attributes-intro--t{
     background-color:#242d44;
+}
+body:has(#attributes-intro--v:checked) #start--s{
+    display: none;
 }
 
 /* meta tags */
@@ -47,6 +59,9 @@ body:has(#meta--v:checked) #meta--s{
 body:has(#meta--v:checked) #meta--t{
     background-color:#242d44;
 }
+body:has(#meta--v:checked) #start--s{
+    display: none;
+}
 
 /* meta tags */
 body:has(#generic--v:checked) #generic--s{
@@ -54,6 +69,9 @@ body:has(#generic--v:checked) #generic--s{
 }
 body:has(#generic--v:checked) #generic--t{
     background-color:#242d44;
+}
+body:has(#generic--v:checked) #start--s{
+    display: none;
 }
 
 /* semantic tags */
@@ -63,6 +81,9 @@ body:has(#semantic--v:checked) #semantic--s{
 body:has(#semantic--v:checked) #semantic--t{
     background-color:#242d44;
 }
+body:has(#semantic--v:checked) #start--s{
+    display: none;
+}
 
 /* text-content tags */
 body:has(#text-content--v:checked) #text-content--s{
@@ -70,6 +91,9 @@ body:has(#text-content--v:checked) #text-content--s{
 }
 body:has(#text-content--v:checked) #text-content--t{
     background-color:#242d44;
+}
+body:has(#text--v:checked) #start--s{
+    display: none;
 }
 
 /* list tags */
@@ -79,6 +103,9 @@ body:has(#list--v:checked) #list--s{
 body:has(#list--v:checked) #list--t{
     background-color:#242d44;
 }
+body:has(#list--v:checked) #start--s{
+    display: none;
+}
 
 /* table tags */
 body:has(#table--v:checked) #table--s{
@@ -86,6 +113,9 @@ body:has(#table--v:checked) #table--s{
 }
 body:has(#table--v:checked) #table--t{
     background-color:#242d44;
+}
+body:has(#table--v:checked) #start--s{
+    display: none;
 }
 
 /* link tags */
@@ -95,6 +125,9 @@ body:has(#link--v:checked) #link--s{
 body:has(#link--v:checked) #link--t{
     background-color:#242d44;
 }
+body:has(#link--v:checked) #start--s{
+    display: none;
+}
 
 /* form tags */
 body:has(#form--v:checked) #form--s{
@@ -103,6 +136,9 @@ body:has(#form--v:checked) #form--s{
 body:has(#form--v:checked) #form--t{
     background-color:#242d44;
 }
+body:has(#form--v:checked) #start--s{
+    display: none;
+}
 
 /* media tags */
 body:has(#media--v:checked) #media--s{
@@ -110,4 +146,7 @@ body:has(#media--v:checked) #media--s{
 }
 body:has(#media--v:checked) #media--t{
     background-color:#242d44;
+}
+body:has(#media--v:checked) #start--s{
+    display: none;
 }
