@@ -1,0 +1,15 @@
+#intro-drop{
+    display: none;
+}
+
+#intro-drop:checked ~ #introduction-sub{
+    display: block;
+}
+
+#check-2{
+    display: none;
+}
+
+#check-2:checked ~ #tag-sub{
+    display: block;
+}

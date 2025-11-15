@@ -1,0 +1,113 @@
+/* html */
+body:has(ul > a:focus) #start--s{
+    display: none;
+}
+
+section {
+    display: none;
+    /* pointer-events: none; */
+}
+
+/* html */
+body:has(#html--v:checked) #html--s{
+    display: block;
+}
+body:has(#html--v:checked) #html--t{
+    background-color:#242d44;
+}
+
+/* structure */
+body:has(#structure--v:checked) #structure--s{
+    display: block;
+}
+body:has(#structure--v:checked) #structure--t{
+    background-color:#242d44;
+}
+
+/* Tags intro */
+body:has(#tags-intro--v:checked) #tags-intro--s{
+    display: block;
+}
+body:has(#tags-intro--v:checked) #tags-intro--t{
+    background-color:#242d44;
+}
+
+/* attributes intro */
+body:has(#attributes-intro--v:checked) #attributes-intro--s{
+    display: block;
+}
+body:has(#attributes-intro--v:checked) #attributes-intro--t{
+    background-color:#242d44;
+}
+
+/* meta tags */
+body:has(#meta--v:checked) #meta--s{
+    display: block;
+}
+body:has(#meta--v:checked) #meta--t{
+    background-color:#242d44;
+}
+
+/* meta tags */
+body:has(#generic--v:checked) #generic--s{
+    display: block;
+}
+body:has(#generic--v:checked) #generic--t{
+    background-color:#242d44;
+}
+
+/* semantic tags */
+body:has(#semantic--v:checked) #semantic--s{
+    display: block;
+}
+body:has(#semantic--v:checked) #semantic--t{
+    background-color:#242d44;
+}
+
+/* text-content tags */
+body:has(#text-content--v:checked) #text-content--s{
+    display: block;
+}
+body:has(#text-content--v:checked) #text-content--t{
+    background-color:#242d44;
+}
+
+/* list tags */
+body:has(#list--v:checked) #list--s{
+    display: block;
+}
+body:has(#list--v:checked) #list--t{
+    background-color:#242d44;
+}
+
+/* table tags */
+body:has(#table--v:checked) #table--s{
+    display: block;
+}
+body:has(#table--v:checked) #table--t{
+    background-color:#242d44;
+}
+
+/* link tags */
+body:has(#link--v:checked) #link--s{
+    display: block;
+}
+body:has(#link--v:checked) #link--t{
+    background-color:#242d44;
+}
+
+/* form tags */
+body:has(#form--v:checked) #form--s{
+    display: block;
+}
+body:has(#form--v:checked) #form--t{
+    background-color:#242d44;
+}
+
+/* media tags */
+body:has(#media--v:checked) #media--s{
+    display: block;
+}
+body:has(#media--v:checked) #media--t{
+    background-color:#242d44;
+}
