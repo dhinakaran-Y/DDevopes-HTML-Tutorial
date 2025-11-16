@@ -92,7 +92,7 @@ body:has(#text-content--v:checked) #text-content--s{
 body:has(#text-content--v:checked) #text-content--t{
     background-color:#242d44;
 }
-body:has(#text--v:checked) #start--s{
+body:has(#text-content--v:checked) #start--s{
     display: none;
 }
 
@@ -149,4 +149,12 @@ body:has(#media--v:checked) #media--t{
 }
 body:has(#media--v:checked) #start--s{
     display: none;
+}
+
+/* show-all */
+body:has(#show-all--v:checked) section{
+    display: block !important;
+}
+body:has(#show-all--v:checked) #show-all--t{
+    background-color:#242d44;
 }

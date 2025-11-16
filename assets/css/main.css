@@ -101,6 +101,23 @@ a{
     color:#93a3c9 ;
 }
 
+/* cancel-btn */
+.cancel-btn{
+    position: absolute;
+    right: 2vw;
+    font-weight: bold;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.cancel-btn:hover{
+    border: 1px solid white;
+}
+
+.cancel-btn:active{
+    background-color: #242d44;
+}
+
 /* sub list */
 
 .sub-list{
@@ -168,7 +185,9 @@ strong{
 }
 
 .inner-list{
-    margin-left: 4vw; font-size: 22px; color: #9da3af;
+    margin-left: 4vw;
+    font-size: 22px;
+     color: #9da3af;
 }
 
 /* iframe */
@@ -207,6 +226,7 @@ strong{
     display: none;
 }
 
+/* ?? responsive */
 code{
   font-size: 22px;
   font-weight: lighter;
@@ -214,6 +234,7 @@ code{
   margin: 5vh 6vw; 
   line-height: 1.3;
 }
+
 .underline{
     text-decoration: underline;
 }

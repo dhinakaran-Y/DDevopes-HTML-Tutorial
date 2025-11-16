@@ -13,3 +13,38 @@
 #check-2:checked ~ #tag-sub{
     display: block;
 }
+
+#cancel--v{
+   visibility: hidden;
+}
+
+body:has(#cancel--v:checked) header{
+    visibility: hidden;
+}
+
+/* toggle */
+
+#toggle-btn{
+   display: none;
+   position: fixed;
+   background: #2e3954;
+   left: 2vw;
+   top: 2vh;
+   font-weight: bold;
+   padding: 5px;
+   border-radius: 5px;
+}
+
+#toggle-btn:hover{
+    border: 1px solid white;
+}
+
+#toggle-btn:active{
+    background-color: #242d44;
+}
+
+/* end */
+
+body:has(#cancel--v:checked) #toggle-btn{
+   display: block;
+}
