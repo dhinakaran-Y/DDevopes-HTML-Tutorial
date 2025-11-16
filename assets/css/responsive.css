@@ -62,8 +62,12 @@
 
    .vid-frame > iframe{
     border-radius: 10px;
-    width: 90% !important;
-    height: 90% !important;
+    width: 95% !important;
+    height: 75% !important;
+}
+
+.vid-frame{
+    margin: 5vh 0;
 }
 
 .content-img{
