@@ -225,6 +225,9 @@ strong{
 .hide{
     display: none;
 }
+.hide-v{
+    visibility: hidden;
+}
 
 /* ?? responsive */
 code{
@@ -242,4 +245,16 @@ code{
 textarea{
     resize: none;
     width: 40vw;
+}
+
+/* git */
+.git{
+    float: right;
+    margin: 15px;
+}
+.git > svg > path {
+    fill: #535459;
+}
+body:has(.git:hover) .git > svg > path{
+    fill: #273268;
 }
